@@ -1,7 +1,12 @@
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
-  return <h1 className="text-purple-600 font-bold text-7xl">hi</h1>;
+  return (
+    <main className="bg-[url('/images/rubik.jpg')] bg-cover min-h-screen">
+      <Header />
+    </main>
+  );
 }
 
 export default App;
